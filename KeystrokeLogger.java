@@ -1,21 +1,22 @@
-package com;
-    import java.awt.GridLayout;
-    import java.awt.event.KeyListener;
-    import java.awt.event.WindowAdapter;
-    import java.awt.event.WindowEvent;
-    import java.io.File;
-    import java.io.FileWriter;
-    import java.awt.event.ActionEvent;
-    import java.awt.event.ActionListener;
-    import java.awt.event.KeyEvent;
-    import java.util.ArrayList;
+import java.awt.GridLayout;
+import java.awt.event.KeyListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.io.File;
+import java.io.FileWriter;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.util.ArrayList;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
 
-    import javax.swing.JButton;
-    import javax.swing.JFrame;
-    import javax.swing.JLabel;
-    import javax.swing.JPanel;
-    import javax.swing.JTextField;
-
+/**
+ * Created by liz on 17/5/25.
+ */
 public class KeystrokeLogger extends JFrame implements KeyListener {
 
     private static final long serialVersionUID = 1L;
